@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 .env
+# Stale uv lockfile: Streamlit Cloud prefers it over requirements.txt
+uv.lock

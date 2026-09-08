@@ -1,13 +1,17 @@
 [project]
 name = "ai-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multi-source research agent (Google, Bing, Reddit) built on LangGraph"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "langchain>=0.3.27",
-    "langchain-google-genai>=2.1.10",
-    "langchain-openai>=0.3.32",
-    "langgraph>=0.6.7",
+    "streamlit>=1.62.0",
+    "langgraph>=1.2.11",
+    "langchain>=1.3.18",
+    "langchain-core>=1.6.1",
+    "langchain-groq>=1.1.3",
+    "requests>=2.34.2",
+    "pydantic>=2.13.5",
+    "typing-extensions>=4.16.0",
     "python-dotenv>=1.1.1",
 ]
